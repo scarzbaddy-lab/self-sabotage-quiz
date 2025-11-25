@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #050509;
+  color: #f5f5f5;
+}
+
+.page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.header h1 {
+  font-size: 26px;
+  letter-spacing: 0.04em;
+  text-transform: none;
+  margin: 0;
+}
+
+.subtitle {
+  color: #d0d0d0;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.quiz-container {
+  background: rgba(15, 15, 20, 0.95);
+  border-radius: 16px;
+  padding: 20px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.question {
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.question:last-of-type {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.question h2 {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.question label {
+  display: block;
+  font-size: 14px;
+  margin: 4px 0;
+  cursor: pointer;
+}
+
+.question input[type="radio"] {
+  margin-right: 8px;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #c91432;
+  color: #fff;
+}
+
+.submit-btn:hover {
+  opacity: 0.9;
+}
+
+.result {
+  margin-top: 24px;
+  padding: 20px 16px;
+  border-radius: 16px;
+  background: #111118;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.hidden {
+  display: none;
+}
+
+#resultTitle {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+#resultIntro {
+  font-size: 14px;
+  color: #e0e0e0;
+  margin-bottom: 12px;
+}
+
+#resultBreakdown {
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-line;
+}
